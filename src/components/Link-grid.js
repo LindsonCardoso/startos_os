@@ -1,5 +1,5 @@
 import { FooterHeading } from './FooterHeading'
-
+import { SimpleGrid, Box, Stack, Link, FooterHeading} from '@chakra-ui/react';
 export const LinkGrid = () => (
   <SimpleGrid columns={2} {...props}>
     <Box minW="130px">

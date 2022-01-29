@@ -4,7 +4,7 @@ import {
   Container,
   useColorModeValue,
 } from '@chakra-ui/react'
-
+import React from 'react';
 import Layout from '../src/components/Layout'
 import Banner from '../src/section/banner';
 import About from '../src/section/About';
@@ -19,9 +19,9 @@ const index = () => {
     <Layout>
        <Container maxW={'container.xl'} maxH={'container.xl'}>
        <div className={styles.whatsapp}>
-                <a href="https://api.whatsapp.com/send?phone=553891227887" target="_blank">
-                    <img src="https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-11-128.png" width="60px"  alt="Fale Conosco pelo WhatsApp" title="Fale Conosco pelo WhatsApp"/> 
-                </a>
+        <a href="https://api.whatsapp.com/send?phone=553891227887" target={'_blank'} rel="noopener noreferrer" >
+            <img src="https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-11-128.png" width="60px"  alt="Fale Conosco pelo WhatsApp" title="Fale Conosco pelo WhatsApp"/> 
+        </a>
       </div>
          <section>
           <Banner/>  
