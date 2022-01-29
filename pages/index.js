@@ -4,6 +4,7 @@ import {
   Container,
   useColorModeValue,
 } from '@chakra-ui/react'
+
 import React from 'react';
 import Layout from '../src/components/Layout'
 import Banner from '../src/section/banner';
