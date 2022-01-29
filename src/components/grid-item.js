@@ -2,42 +2,43 @@ import Image from 'next/image'
 import { Box, Text, Heading } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 
-export const FeatureGridItem = ({src,altText = 'default alt text', title, text, }) => (
-    <Box display={'flex'}  alignItems={'flex-start'} mb={'-1'} >
-       <Image
+export function FeatureGridItem({ src, altText = 'default alt text', title, text, }) {
+  return (
+    <Box display={'flex'} alignItems={'flex-start'} mb={'-1'}>
+      <Image
         width={'80%'}
         height={'80%'}
         mr={[2, 3, null, null, 4, 5]}
         ml={-2}
-       src={src} 
-       alt={altText}
-       className="grid-item-thumbnail"
-       loading="lazy"
-      />
-      <Box 
+        src={src}
+        alt={altText}
+        className="grid-item-thumbnail"
+        loading="lazy" />
+      <Box
         width="100%"
         display='flex'
         flexDirection='column'
         mt='10px'
-        >
-      <Heading
-      fontSize={'1.5rem'}
-      color='primary'
-      fontWeight={700}
-      mb={['10px', null, '15px']}
-      
       >
+        <Heading
+          fontSize={'1.5rem'}
+          color='primary'
+          fontWeight={700}
+          mb={['10px', null, '15px']}
+
+        >
           {title}
-      </Heading>
-        <Text 
+        </Heading>
+        <Text
           fontSize={'1rem'}
           fontWeight={400}
           mt={2}
-          >{text}</Text>
+        >{text}</Text>
       </Box>
-    
-  </Box>
-)
+
+    </Box>
+  )
+}
 
 export const TitleGridItem = ({ title, slogan, isWhite}) => (
     <Box mt={'80px'}>

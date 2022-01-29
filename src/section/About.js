@@ -7,7 +7,7 @@ import Nfs from '../../public/features/nfs.png'
 import Estoque from '../../public/features/estoque.png'
 import Integracao from '../../public/features/integracao.png'
 
-import { FeatureGridItem } from '../components/Grid-item'
+import  { FeatureGridItem } from '../components/Grid-item'
 import { TitleGridItem } from '../components/Grid-item';
 const data = [
   {
