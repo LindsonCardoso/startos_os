@@ -1,5 +1,4 @@
 import { Box, Stack } from '@chakra-ui/react'
-import Suport from '../section/suport'
 import { Copyright } from './Copyright'
 import { SocialMediaLinks } from './SocialMedia'
 

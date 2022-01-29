@@ -11,7 +11,7 @@ export const LinkGrid = () => (
       </Stack>
     </Box>
     <Box minW="130px">
-  
+      <FooterHeading mb="4">Legal</FooterHeading>
       <Stack>
         <Link>Privacy</Link>
         <Link>Terms</Link>

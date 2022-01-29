@@ -4,7 +4,7 @@ import styles from '../../styles/Pricing.module.css'
 import {CloseIcon, CheckIcon } from '@chakra-ui/icons'
 //import 'react-accessible-accordion/dist/fancy-example.css'
 import {Box,Text, Heading, Table, Thead, Tbody, Tr, Th, Td, chakra,useColorModeValue } from '@chakra-ui/react'
-import { TitleGridItem } from '../Components/grid-item';
+import { TitleGridItem } from '../components/Grid-item';
 const economico = [
   {
     id: 1,

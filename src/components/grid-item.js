@@ -1,4 +1,3 @@
-
 import Image from 'next/image'
 import { Box, Text, Heading } from '@chakra-ui/react'
 import { Global } from '@emotion/react'

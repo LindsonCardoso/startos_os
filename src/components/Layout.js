@@ -24,13 +24,8 @@ const Layout = ({ children }) => {
       </Head>
 
       <NavBar/>
-      
       <Container maxW="container.xl"  maxH="container.xl" pt={10}>
-    
        {children}
-      
- 
-   
       </Container>
     </Box>
   )

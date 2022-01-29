@@ -2,7 +2,7 @@ import { Container, Box, Heading, Text, Button,useColorModeValue } from '@chakra
 import Image from 'next/image'
 import NextLink from 'next/link'
 import Logo from '../../public/startos.png'
-import P from '../Components/Paragraph'
+import P from '../components/Paragraph'
 import styled from '@emotion/styled'
 import ShapeLeft from '../assets/shape-left.png';
 import ShapeRight from '../assets/shape-right.png';
