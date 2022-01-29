@@ -90,7 +90,7 @@ export default function Feature() {
        >
         {data.map((item) =>(
         <FeatureGridItem 
-        key={item.id} 
+        key={item.id}  
         src={item.imgSrc}
         altText={item.altText}
         title={item.title}
