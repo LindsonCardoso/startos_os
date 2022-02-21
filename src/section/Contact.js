@@ -634,11 +634,11 @@ async function sendContactPJ(captchaCode) {
     <FormControl>
      <FormLabel >CNPJ</FormLabel>
     <InputMask 
-     placeholder='999.999.9999/99'
-     mask='cnpj'
-    onChange={onChangeInputPJ} 
-    value={dataFormPJ.cnpj}
-    name='cnpj'
+     placeholder='99.999.999./9999-99'
+      mask='cnpj'
+      onChange={onChangeInputPJ} 
+      value={dataFormPJ.cnpj}
+      name='cnpj'
     />   
     </FormControl>
 
