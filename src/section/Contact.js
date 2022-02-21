@@ -635,9 +635,8 @@ async function sendContactPJ(captchaCode) {
 
     <FormControl>
      <FormLabel >CNPJ</FormLabel>
-    <InputMask 
-     placeholder='99.999.999./9999-99'
-      mask='cnpj'
+    <Input 
+       placeholder='99.999.999./9999-99'
       onChange={onChangeInputPJ}
       value={cnpjMask(dataFormPJ.cnpj)} 
       name='cnpj'
