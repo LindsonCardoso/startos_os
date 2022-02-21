@@ -64,6 +64,7 @@ const [dataForm, setDataForm] = useState({
   numero: "",
   complemento: ""
 });
+
 const [dataFormPJ, setDataFormPJ] = useState({
   nomeFantasia: "",
   razaoSocial: "",
@@ -645,8 +646,7 @@ async function sendContactPJ(captchaCode) {
     <FormControl>
      <FormLabel flexDirection={'column'}>Inscrição Estadual</FormLabel>
      <InputMask 
-      placeholder='999/9999999999'
-      mask='ie'
+      placeholder='Inscrição estadual'
       name='ie'
       onChange={onChangeInputPJ} 
       value={dataFormPJ.ie}
