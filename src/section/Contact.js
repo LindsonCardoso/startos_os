@@ -22,6 +22,7 @@ import ReCAPTCHA from 'react-google-recaptcha'
 import Axios from 'axios';
 import * as Yup from 'yup';
 import InputMask from '../components/InputMask'
+import { cnpjMask } from '../components/InputMask/cnpjMask'
 const Contact = () => {
  
   return (
@@ -637,8 +638,8 @@ async function sendContactPJ(captchaCode) {
     <InputMask 
      placeholder='99.999.999./9999-99'
       mask='cnpj'
-      onChange={onChangeInputPJ} 
-      value={dataFormPJ.cnpj}
+      onChange={onChangeInputPJ}
+      value={cnpjMask(dataFormPJ.cnpj)} 
       name='cnpj'
     />   
     </FormControl>
