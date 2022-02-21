@@ -199,7 +199,7 @@ async function sendContact(captchaCode) {
     setSubmitting(true)
     const cpfNoMask = dataForm.cpf.replace(/[^\d]+/g,'');
     const whatsAppNoMask = dataForm.whatsapp.replace(/[^\d]+/g,'');
-  
+
     try {
      const res = await fetch('/api/sendpf', {
         method: 'POST',
